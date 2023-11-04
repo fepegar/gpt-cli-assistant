@@ -8,8 +8,9 @@ version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
     "openai",
-    "typer",
+    "python-dotenv",
+    "typer[all]",
 ]
 
 [project.entry-points.console_scripts]
-gg = "gpt.main:app"
+ai = "gpt.main:app"
