@@ -7,7 +7,7 @@ name = "gpt"
 version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
-    "openai",
+    "openai<1",
     "python-dotenv",
     "typer[all]",
 ]
